@@ -1,0 +1,25 @@
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__text {
+  width: 465px;
+}
+.header__title {
+  margin-right: -150px;
+  margin-bottom: 25px;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 79px;
+  position: relative;
+  z-index: 2;
+}
+.header__text p {
+  line-height: 27px;
+  margin-bottom: 1em;
+}
+
+.header__img img {
+  border-radius: 40px 40px 40px 0px;
+}

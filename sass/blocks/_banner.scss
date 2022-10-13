@@ -1,0 +1,49 @@
+.banner {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.banner__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #58bebf;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.banner__img {
+  margin-top: 60px;
+  padding-top: 25px;
+  padding-right: 25px;
+  background-color: #fff;
+  border-radius: 0 20px 0 0;
+}
+.banner__txt {
+  width: 555px;
+  padding-left: 95px;
+  padding-right: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../img/icon/oval_top_r.svg") right top,
+    url("../img/icon/oval_down_l.svg") bottom left -185px;
+  background-repeat: no-repeat;
+
+  p {
+    width: 320px;
+  }
+}
+.banner__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 0.8px;
+  margin-bottom: 15px;
+}
+.banner__btns-row {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 20px;
+}

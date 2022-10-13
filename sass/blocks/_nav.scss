@@ -1,0 +1,38 @@
+.nav {
+  padding-top: 35px;
+  padding-bottom: 33px;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  img {
+    margin-right: 5px;
+  }
+}
+.menu {
+  ul {
+    display: flex;
+  }
+  li:not(:last-child) {
+    margin-right: 42px;
+  }
+  a {
+    color: inherit;
+    &:hover {
+      color: $accent-color;
+    }
+    &.active {
+      color: $accent-color;
+      font-weight: 700;
+    }
+  }
+}

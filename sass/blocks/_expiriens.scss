@@ -1,0 +1,45 @@
+.expiriens {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 55px;
+  background-image: url("../img/expiriens/bg_footer.svg");
+  background-size: cover;
+  &::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 378px;
+    width: 743px;
+    background-image: url("../img/expiriens/oval_bg_footer.svg");
+    right: 78px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 547px;
+    width: 478px;
+    background-image: url("../img/expiriens/woman_3.png");
+    right: 264px;
+    bottom: 0px;
+  }
+}
+.expiriens__info {
+  max-width: 360px;
+}
+.title--expiriens {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 62px;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.experience__text {
+  max-width: 342px;
+  margin-bottom: 30px;
+  letter-spacing: 1.15px;
+  color: #ffffff;
+  letter-spacing: 1.3px;
+}
